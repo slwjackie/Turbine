@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+outputs/
+private_data/
+configs/lab*.json
+*.def
+*.res
+*.cfx
+*.ccl
+*.msh
+*.mesh
+.DS_Store

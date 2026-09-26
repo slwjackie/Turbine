@@ -1,0 +1,19 @@
+{
+  "source_id": "K1_2025_TABLE2",
+  "title": "Effects of Leakage Flows from Secondary Flow Passages on the Flow and Efficiency of a High-Pressure Turbine",
+  "authors": ["Minsuk Choi", "Myungho Kim", "Seung Jin Song"],
+  "journal": "The KSFM Journal of Fluid Machinery",
+  "volume": 28,
+  "issue": 2,
+  "year": 2025,
+  "pages": "7-13",
+  "doi": "10.5293/kfma.2025.28.2.007",
+  "url": "https://ksfmjournal.org/xml/44747/44747.pdf",
+  "location": "Table 2, printed page 11 (PDF page 5)",
+  "transcription": "25 printed rows manually transcribed and checked against the page image. Four decimal places retained. No unpublished data or PDF redistributed.",
+  "input_units": "x_i = (m_i/m_i0 - 1)/0.5, so -1/0/+1 mean 50/100/150 percent of each flow's own design value",
+  "target_units": {"delta_eta_pp": "percentage points, relative to the paper's no-leakage reference; larger/less negative is better", "delta_torque_nm": "N m, one rotor blade, relative to the paper's no-leakage reference"},
+  "limitations": ["Exact design mass flows unavailable here", "No sealing-effectiveness or ingress labels", "No new CFD validation", "No independent off-design, gas, grid, or phase labels", "Coded-variable sensitivity is not sensitivity per kg/s"],
+  "context_id": "K1_2025_TABLE2_ORIGINAL",
+  "reference_id": "K1_NO_LEAKAGE_REFERENCE"
+}

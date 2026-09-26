@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "turbine-allocation-poc"
+version = "0.1.0"
+description = "Auditable K1 response-surface reproduction and fixed-budget purge allocation"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "matplotlib>=3.7,<4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7,<10"]
+
+[project.scripts]
+turbine-poc = "turbine_poc.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+turbine_poc = ["data/*.csv", "data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

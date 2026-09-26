@@ -1,0 +1,5 @@
+{
+  "source_kind": "illustrative",
+  "provenance": "Teaching example only. 0.4 and 0.6 kg/s are NOT K1 design flows. Replace with authorized laboratory values for physical case planning.",
+  "flow_kg_s": {"1": null, "2": null, "3": 0.4, "4": 0.6, "5": null, "6": null}
+}
